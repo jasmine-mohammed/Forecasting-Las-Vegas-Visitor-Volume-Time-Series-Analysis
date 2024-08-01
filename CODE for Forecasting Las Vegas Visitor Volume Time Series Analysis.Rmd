@@ -18,10 +18,10 @@ The problem I am trying to address is whether or not I can predict future Las Ve
 
 I plan to address this problem by using Las Vegas visitor volume data to forecast the future visitor volume of Las Vegas. The Las Vegas visitor volume dataset I will be working with contains monthly Las Vegas visitor volume data from January 2009 to December 2018. This time series data consists of monthly totals for the number of people that visited Las Vegas. I retrieved the dataset from the Las Vegas Convention and Visitors Authority. To analyze and forecast the data, I used RStudio. Techniques used to achieve this include data processing via differencing, model identification, estimation, and selection, and diagnostic checking to determine a model best fit for forecasting. Despite some non-ideal outcomes when completing this project–increased variance after removing trend, models being non-stationary and invertible, and models not completely passing the diagnostics–I was able to determine a model that accurately forecasted Las Vegas visitor volume.  
 
-Lav Vegas Visitor Volume Data
-- Monthly Las Vegas visitor volume data (January 2009 - December 2018)
-- Monthly totals in number of visitors $\{U_t\space ,\space t=1,2,...,120\}$}
-- Data Source: [Las Vegas Convention and Visitors Authority](https://www.lvcva.com/research/?tab=tourism-tracker#tab-container)
+Lav Vegas Visitor Volume Data \
+- Monthly Las Vegas visitor volume data (January 2009 - December 2018) \
+- Monthly totals in number of visitors $\{U_t\space ,\space t=1,2,...,120\}$} \
+- Data Source: [Las Vegas Convention and Visitors Authority](https://www.lvcva.com/research/?tab=tourism-tracker#tab-container) \
 
 # Exploratory Data Analysis
 

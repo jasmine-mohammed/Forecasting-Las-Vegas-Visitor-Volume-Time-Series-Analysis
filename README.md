@@ -1,7 +1,7 @@
 # Forecasting Las Vegas Visitor Volume
 
 ## Project Summary
-Using publicly available time series data, I accurately modeled and forecasted monthly Las Vegas visitor volume. This project was completed as a final project for my Time Series course at UCSB in 05/24. 
+Using publicly available time series data, I accurately modeled and forecasted monthly Las Vegas visitor volume. This project was completed as a final project for my Time Series course at UCSB in 05/23. 
 
 ## My Contribution 
 This was an individual project in which I completed all of the data analysis and model generation.
@@ -11,7 +11,7 @@ This was an individual project in which I completed all of the data analysis and
 - Data transformation via differencing 
 - Auto-correlation Function (ACF) and Partial Auto-correlation Function (PACF)
 - Time Series Modeling: Seasonal Moving Average (SMA), Seasonal Auto-regressive integrated moving average (SARIMA)
-- Akaike Information Criterion (AIC)
+- Akaike Information Criterion (AICc)
 
 ## Tools
 - RStudio
@@ -27,7 +27,7 @@ This was an individual project in which I completed all of the data analysis and
 - Plotted Autocorrelation Function (ACF) to determine lag for differencing
 - Differenced data by lag 12 and lag 1 and plotted ACF and histogram to confirm stationality.
 3. Model Estimation & Selection: Estimated coefficients for model selection and checked model fit
-- Tested MA and SARIMA models with different parameters and selected 3 models with the lowest Akaike information criterion (AIC) which indicates how well a model fits the data.  
+- Tested MA and SARIMA models with different parameters and selected 3 models with the lowest Akaike information criterion (AICc) which indicates how well a model fits the data.  
 - Plotted roots to determine whether the models were invertible and stationary. Eliminated one model since it was not invertible.
 4. Model Diagnostic:  Ensured model is stationary and normal
 - Plotted histogram, residuals, and Q-Q plot to determine whether two remaining models were stationary.
